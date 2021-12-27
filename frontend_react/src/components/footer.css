@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mainFooter {
+    background-color: black;
+
+}   
+.footerBar {
+    color: blanchedalmond;
+}
+
+.footerBottom {
+    background-color: #181818;
+    color: blanchedalmond;
+    
+}
+.git {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+
+.footerBpttom span {
+    color: #202020;
+    text-transform: uppercase;
+    opacity: 4;
+}

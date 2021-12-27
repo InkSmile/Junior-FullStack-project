@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  api:
+    build:
+      context: ./backend_django
+    volumes:
+      - ./backend_django:/app
+    ports:
+      - 8000:8000
+    image: app:django
+
+  front:
+    build:
+      context: ./frontend_react
+    volumes:
+      - ./frontend_react:/core
+    ports:
+      - 3000:3000
